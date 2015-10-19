@@ -1,0 +1,23 @@
+{
+  "name": "kanban_app",
+  "version": "1.0.0",
+  "description": "0.1.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server"
+  },
+  "keywords": [
+    "react",
+    "flux",
+    "webpack"
+  ],
+  "author": "Leonardo Luiz",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^0.20.1",
+    "html-webpack-plugin": "^1.6.2",
+    "style-loader": "^0.12.4",
+    "webpack-dev-server": "^1.12.1",
+    "webpack-merge": "^0.2.0"
+  }
+}
