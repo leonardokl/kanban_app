@@ -29,7 +29,7 @@ export default class Note extends React.Component {
       autoFocus={true}
       defaultValue={this.props.task}
       onBlur={this.finishEdit}
-      onKeyPress={this.checkEnter} />;
+      onKeyPress={this.checkEnter}/>;
   }
   renderTask() {
     const onDelete = this.props.onDelete;
